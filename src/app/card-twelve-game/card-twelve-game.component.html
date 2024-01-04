@@ -1,0 +1,9 @@
+<div class="card-twelve-game">
+    <div *ngFor="let card of cards" (click)="flipCard(card)">
+      <div class="card" [ngClass]="{'flipped': card.flipped, 'matched': card.matched}">
+        <div class="front"></div>
+        <div class="back" [ngStyle]="{'background-image': 'url(' + card.image + ')'}"></div>
+      </div>
+    </div>
+  </div>
+  
