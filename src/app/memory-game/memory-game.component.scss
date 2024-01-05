@@ -1,0 +1,33 @@
+.card-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #b77373;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  color: #000;
+  
+  &:hover {
+    scale: 105%;
+    background-color: yellowgreen;
+  }
+}
+
+.card-option-6 {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card-option-12 {
+  background-color: #28a745;
+  color: #fff;
+}
+
+h1,p{
+  text-align: center;
+}
