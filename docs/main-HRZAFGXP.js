@@ -12811,12 +12811,12 @@ var mh = (() => {
     constructor() {
       (this.router = p(ie)),
         (this.cards = [
-          { image: "assets/game1.png", flipped: !1, matched: !1 },
-          { image: "assets/game2.png", flipped: !1, matched: !1 },
-          { image: "assets/game3.png", flipped: !1, matched: !1 },
-          { image: "assets/game1.png", flipped: !1, matched: !1 },
-          { image: "assets/game2.png", flipped: !1, matched: !1 },
-          { image: "assets/game3.png", flipped: !1, matched: !1 },
+          { image: "/assets/game1.png", flipped: !1, matched: !1 },
+          { image: "/assets/game2.png", flipped: !1, matched: !1 },
+          { image: "/assets/game3.png", flipped: !1, matched: !1 },
+          { image: "/assets/game1.png", flipped: !1, matched: !1 },
+          { image: "/assets/game2.png", flipped: !1, matched: !1 },
+          { image: "/assets/game3.png", flipped: !1, matched: !1 },
         ]),
         (this.flippedCards = []),
         (this.isFlipping = !1),
